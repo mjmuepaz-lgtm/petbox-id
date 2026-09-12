@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PetBox ID - Magui</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    .contenedor {
+      max-width: 430px;
+      margin: 0 auto;
+      min-height: 100vh;
+      background: white;
+      box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 22px 15px;
+    }
+
+    header h1 {
+      font-size: 25px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #d1d5db;
+    }
+
+    .perfil {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .foto {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: #e5e7eb;
+      margin: 0 auto 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 70px;
+      border: 5px solid #fff;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .nombre {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .descripcion {
+      margin-top: 7px;
+      color: #6b7280;
+    }
+
+    .boton {
+      display: block;
+      margin: 25px auto;
+      width: 90%;
+      max-width: 340px;
+      padding: 17px;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: bold;
+      box-shadow: 0 5px 12px rgba(34,197,94,0.25);
+    }
+
+    .datos {
+      margin: 20px;
+      border-radius: 15px;
+      background: #f8fafc;
+      padding: 20px;
+    }
+
+    .dato {
+      padding: 12px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .dato:last-child {
+      border-bottom: none;
+    }
+
+    .etiqueta {
+      font-size: 12px;
+      color: #6b7280;
+      text-transform: uppercase;
+    }
+
+    .valor {
+      margin-top: 4px;
+      font-weight: bold;
+    }
+
+    .estado {
+      color: #16a34a;
+    }
+
+    .registrada {
+      margin: 20px;
+      padding: 16px;
+      border-radius: 12px;
+      background: #ecfdf5;
+      color: #166534;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: #9ca3af;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="contenedor">
+
+    <header>
+      <h1>🐾 PETBOX ID</h1>
+      <p>Identificación inteligente para mascotas</p>
+    </header>
+
+    <section class="perfil">
+
+      <div class="foto">
+        🐶
+      </div>
+
+      <div class="nombre">
+        MAGUI
+      </div>
+
+      <p class="descripcion">
+        Hola, soy Magui 🐾
+      </p>
+
+      <a
+        class="boton"
+        href="https://wa.me/593999999999"
+        target="_blank">
+        💬 CONTACTAR A MI HUMANO
+      </a>
+
+    </section>
+
+    <section class="datos">
+
+      <div class="dato">
+        <div class="etiqueta">Código PetBox</div>
+        <div class="valor">PB-00027</div>
+      </div>
+
+      <div class="dato">
+        <div class="etiqueta">Ciudad</div>
+        <div class="valor">Quito, Ecuador</div>
+      </div>
+
+      <div class="dato">
+        <div class="etiqueta">Estado</div>
+        <div class="valor estado">🟢 Activa</div>
+      </div>
+
+    </section>
+
+    <div class="registrada">
+      ✓ Mascota registrada en PetBox
+    </div>
+
+    <footer>
+      Gracias por ayudarme a volver a casa. ❤️
+      <br><br>
+      PetBox ID · Identificación inteligente para mascotas
+    </footer>
+
+  </div>
+
+</body>
+</html>
